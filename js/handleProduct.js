@@ -7,6 +7,7 @@ const handleProduct = () => {
                 img: product.querySelector('img').src,
             };
             localStorage.setItem('product', JSON.stringify(data));
+            console.log(location);
 
             location.href = location.href + 'page/product.html';
         });
