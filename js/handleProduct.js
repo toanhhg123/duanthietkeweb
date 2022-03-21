@@ -8,7 +8,8 @@ const handleProduct = () => {
             };
             localStorage.setItem('product', JSON.stringify(data));
 
-            window.location.href = '../page/product.html';
+                        console.log(location.href);
+
         });
     });
 };
