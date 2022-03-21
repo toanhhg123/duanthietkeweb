@@ -9,13 +9,7 @@ const handleProduct = () => {
             localStorage.setItem('product', JSON.stringify(data));
             console.log(location);
 
-<<<<<<< HEAD
             location.href = location.href + 'page/product.html';
-=======
-                               location.href = location.href + 'page/product.html';
-
-
->>>>>>> 81bc32fdca637ea9eecc6d476ea0ecd44634068f
         });
     });
 };
